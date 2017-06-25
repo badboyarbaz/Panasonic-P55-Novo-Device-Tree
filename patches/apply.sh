@@ -25,7 +25,7 @@ cd skia
 patch -p1 < ../../device/Xiaomi/hm_note_1w/patches/external_skia.patch
 cd ../..
 cd frameworks/base
-patch -p1 < ../../device/Xiaomi/hm_note_1w/patches/frameworks_base.patch
+git apply -v < ../../device/Xiaomi/hm_note_1w/patches/frameworks_base.patch
 cd ..
 cd native
 patch -p1 < ../../device/Xiaomi/hm_note_1w/patches/frameworks_native.patch
