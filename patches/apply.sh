@@ -13,10 +13,10 @@ cd ..
 #patch -p1 < ../../device/Xiaomi/hm_note_1w/patches/packages_apps_Snap.patch
 #cd ..
 cd Camera2
-patch -p1 < ../../device/Xiaomi/hm_note_1w/patches/packages_apps_Camera2.patch
+patch -p1 < ../../../device/Xiaomi/hm_note_1w/patches/packages_apps_Camera2.patch
 cd ../..
 cd services/Telephony
-patch -p1 < ../../device/Xiaomi/hm_note_1w/patches/packages_services_Telephony.patch
+patch -p1 < ../../../device/Xiaomi/hm_note_1w/patches/packages_services_Telephony.patch
 cd ../../..
 cd external/openssl
 patch -p1 < ../../device/Xiaomi/hm_note_1w/patches/external_openssl.patch
