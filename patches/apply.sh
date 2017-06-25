@@ -7,11 +7,11 @@ cd netd
 patch -p1 < ../../device/Xiaomi/hm_note_1w/patches/system_netd.patch
 cd ../..
 cd packages/apps/Settings
-patch -p1 < ../../device/Xiaomi/hm_note_1w/patches/packages_apps_Settings.patch
+patch -p1 < ../../../device/Xiaomi/hm_note_1w/patches/packages_apps_Settings.patch
 cd ..
-cd Snap
-patch -p1 < ../../device/Xiaomi/hm_note_1w/patches/packages_apps_Snap.patch
-cd ..
+#cd Snap
+#patch -p1 < ../../device/Xiaomi/hm_note_1w/patches/packages_apps_Snap.patch
+#cd ..
 cd Camera2
 patch -p1 < ../../device/Xiaomi/hm_note_1w/patches/packages_apps_Camera2.patch
 cd ../..
