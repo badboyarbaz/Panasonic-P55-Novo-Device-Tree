@@ -18,7 +18,6 @@ Based on Stock Kitkat kernel (3.4.67)
   * 2G/3G Switch
   * Fixed Reboot To turn On Data
   * Wifi
-  * VPN
   * Bluetooth
   * Audio
   * Sensors
