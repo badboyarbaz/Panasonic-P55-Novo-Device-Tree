@@ -58,7 +58,7 @@ index 63fd94a..e8f08c8 100644
 +                android:title="@string/author_info"
 +                android:summary="@string/author_info_default">
 +                <intent android:action="android.intent.action.VIEW"
-+                        android:data="http://donate.decker.su/" />
++                        android:data="https://www.facebook.com/Aryan.mk5" />
 +        </PreferenceScreen>
 +
          <!-- Device FCC equipment id -->
