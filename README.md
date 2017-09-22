@@ -42,7 +42,11 @@ Based on Stock Kitkat kernel (3.4.67)
   * brunch hm_note_1w
   * Done :)
   
-  # Credits/Thanks to:-
+ # Tweak For Faster Building (Setting Up CCache)
+  * echo "export USE_CCACHE=1" >> ~/.bashrc
+  * prebuilts/misc/linux-x86/ccache/ccache -M 100G
+  
+ # Credits/Thanks to:-
   * Fire855 
   * Axet
   * chrmhoffmann
