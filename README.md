@@ -33,12 +33,12 @@ Based on Stock Kitkat kernel (3.4.67)
 
   * repo init -u git://github.com/LineageOS/android.git -b cm-13.0
   * repo sync
-  * git clone https://github.com/EndLess728/android_device_hm_note_1w.git -b cm-13.0 device/Xiaomi/hm_note_1w
-  * git clone https://github.com/EndLess728/android_vendor_hm_note_1w.git -b cm-13.0 vendor/Xiaomi/hm_note_1w
-  * cd device/Xiaomi/hm_note_1w/patches
+  * git clone https://github.com/EndLess728/android_device_p55.git -b cm-13.0 device/Panasonic/p55
+  * git clone https://github.com/EndLess728/android_vendor_p55.git -b cm-13.0 vendor/Panasonic/p55
+  * cd device/Panasonic/p55/patches
   * source apply.sh 
   * source build/envsetup.sh
-  * brunch hm_note_1w
+  * brunch p55
   * Done :)
   
   # Credits/Thanks to:-

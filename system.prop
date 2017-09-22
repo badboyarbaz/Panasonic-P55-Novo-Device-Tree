@@ -1,5 +1,5 @@
 #
-# system.prop for Xiaomi hm_note_1w
+# system.prop for Panasonic p55
 #
 
 rild.libpath=/system/lib/mtk-ril.so
