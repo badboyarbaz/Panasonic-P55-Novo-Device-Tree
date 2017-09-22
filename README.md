@@ -1,16 +1,16 @@
-This is a device tree for Redmi Note 3G (MT6592) which is based on MT6592 SoC.
+This is a device tree for panasonic P55 Novo (MT6592) which is based on MT6592 SoC.
 Based on Stock Kitkat kernel (3.4.67)
 
 
 # Specifications:-
-   * CPU	1.7GHz Octa-Core MT6592
-   * Memory	2GB RAM
+   * CPU	1.3GHz Octa-Core MT6592
+   * Memory	1GB RAM
    * Android Version 4.4.2 
    * Storage	8GB
-   * Battery	3150 mAh
+   * Battery	2500 mAh
    * Display	5.5" 720 x 1280 DPI 320
    * Rear Camera	13MP
-   * Front Camera	3MP
+   * Front Camera	5MP
 
 
 # Working
