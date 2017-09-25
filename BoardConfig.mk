@@ -38,7 +38,7 @@ BOARD_KERNEL_PAGESIZE := 2048
 #TARGET_KERNEL_CONFIG := 2014011_debug_defconfig
 #TARGET_KERNEL_SOURCE := Panasonic/p55
 TARGET_PREBUILT_KERNEL := device/Panasonic/p55/kernel
-BOARD_CUSTOM_BOOTIMG_MK := device/Panasonic/p55/bootimg.mk
+BOARD_CUSTOM_BOOTIMG_MK := device/Panasonic/p55/mkbootimg.mk
 BOARD_CUSTOM_BOOTIMG := true
 TARGET_KMODULES := true
 
@@ -132,4 +132,4 @@ $(shell mkdir -p $(OUT)/obj/KERNEL_OBJ/usr)
 $(shell rm -rf $(LOCAL_PATH)/packages/apps/FMRadio)
 
 # Use old sepolicy version
-POLICYVERS := 26
+#POLICYVERS := 26
